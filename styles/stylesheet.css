@@ -20,18 +20,24 @@ h1 {
   text-align: right;
   font-size: 40px;
 }
+h2 {
+  background-color: 596A67;
+  font-size: 28px;
+}
 h3 {
   text-transform: uppercase;
-  text-align: right;
+  text-align: center;
+}
+h4 {
+	text-align: right;
 }
 hr {
   width: 95%;
   margin-left: auto;
   margin-right: auto;
   height: 3px;
-  background-color: 53E7CF;
+  background-color: 596A67;
 }
-
-h2 {
-  background-color: 53E7CF;
+p {
+	text-align: center;
 }
