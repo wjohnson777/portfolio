@@ -1,77 +1,64 @@
 <!DOCTYPE html>
 <!-- created by William -->
-
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Udacity Portfolio Project</title>
-    <link href="<link href=" https://fonts.googleapis.com/css?family=Open+Sans|Ubuntu " rel="stylesheet ">
-   <link rel="stylesheet " href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css ">
-   <link href="styles/stylesheet.css " rel="stylesheet ">
-	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js "></script>
-	 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js "></script>
-
-
+    <title>Portfolio</title>
+    <link href="styles/stylesheet.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Ubuntu" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
-  <body class="container ">
-
-
-     <!--  Logo Image  -->
-
-
-       <picture class="col-sm-3 "><img src="images/UdacityLogo.png " class="img-responsive " alt="Responsive image "></picture>
-
-     <!-- Name and Title -->
-
-    <section class="name ">
-      <h1>Bill Johnson</h1>
-      <h4>Front-end Ninja</h4>
-    </section>
-
-    <section class="row ">
-      <border class="col-sm-12 ">
-        <hr>
-      </border>
-    </section>
-
-
-  <!--Main Image -->
-
-    <section class="row ">
-	   <article class="col-sm-12 ">
-        <picture>
-         <img class="img-responsive " src="images/flooded creek3.jpg " alt="Flooded Creek "/>
-        </picture>
-	   </article>
-    </section>
-    <section class="row ">
-	 <article class="col-sm-12 ">
-      <h2>Featured Work</h2>
-	 </article>
-    </section>
-
-  <!--  Featured Work - Bottom Images  -->
-
-    <section class="row ">
-      <picture class="col-sm-4 ">
-        <img class="img-responsive " src="images/foggy creek1.jpg " alt="Foggy Creek "/>
-         <h3>Appify</h3>
-         <p>http://github.com/udacity/appify</p>
-      </picture>
-      <picture class="col-sm-4 ">
-        <img class="img-responsive " src="images/foggy hill1.jpg " alt="Foggy Hill "/>
-        <h3>Sunflower</h3>
-        <p>http://github.com/udacity/sunflower</p>
-      </picture>
-      <picture class="col-sm-4 ">
-        <img class="img-responsive " src="images/snowy creek1.jpg " alt="Snowy Creek "/>
-        <h3>Bokeh</h3>
-        <p>http://github.com/udacity/bokeh</p>
-      </picture>
-    </section>
-
-
-</body></html>
+<body>
+  <div class="container">
+  <div class="webpage">
+       <section class="row">
+           <col-3 class="col-sm-3">
+           <!--  Logo Image  -->
+              <img class="img-responsive" src="images/UdacityLogo.png" alt="Udacity Logo" />
+           </col-3>
+           <!-- Name and Title -->
+           <col-6 class="name">
+                <h1>Bill Johnson</h1>
+                <h3>Front-end Ninja</h3>
+           </col-6>
+      </section>
+      <hr>
+      <figure class="row">
+	         <col-12 class="col-sm-12">
+           <picture>
+              <!--Main Image -->
+              <img class="img-responsive" src="images/flooded creek3.jpg" alt="Flooded Creek"/>
+           </picture>
+           </col-12>
+      </figure>
+      <section>
+        <col-3 class="work">
+            <h2>Featured Work</h2>
+	      </col-3>
+      </section>
+        <!--  Featured Work - Bottom Images  -->
+        <section class="row text-center">
+            <col-4 class="col-sm-4">
+                <img class="img-responsive" src="images/foggy creek1.jpg" alt="Foggy Creek "/>
+                 <h4>Appify</h4>
+                 <p>http://github.com/udacity/appify</p>
+            </col-4>
+            <col-4 class="col-sm-4">
+                <img class="img-responsive" src="images/foggy hill1.jpg" alt="Foggy Hill"/>
+                <h4>Sunflower</h4>
+                <p>http://github.com/udacity/sunflower</p>
+            </col-4>
+            <col-4 class="col-sm-4">
+                <img class="img-responsive" src="images/snowy creek1.jpg" alt="Snowy Creek"/>
+                <h4>Bokeh</h4>
+                <p>http://github.com/udacity/bokeh</p>
+            </col-4>
+        </section>
+      </div>
+    </div>
+    </body>
+</html>
