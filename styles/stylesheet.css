@@ -1,43 +1,54 @@
-body {
-    color: #2D2525;
-    font-family: "Ubuntu", sans-serif;
-    margin: 0 auto;
-    width: 100%;
+body{
+  margin: 0 auto;
+  width: 100%;
+  font-family: "Ubuntu", sans-serif;
 }
-.image {
-    margin-top: 20px;
+
+.img-responsive{
+  width: 100%;
 }
-.img-responsive {
-    width: 100%;
+
+.work{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  font-weight: lighter;
+  color: #7d97ad;
 }
-.name {
-    font-family: "Open Sans", cursive;
-    font-size: 3em;
+
+.name{
+  width: 40%;
+  margin: 25px;
+  padding: 10px;
+  font-family: "Abril Fatface", cursive;
 }
-h1 {
-    padding-top: 20px;
-    text-transform: uppercase;
-    text-align: right;
-    font-size: 40px;
+
+h1{
+  text-transform: uppercase;
+  text-align: right;
+  font-weight: 100;
+  color: #2d3c49;
+  font-size: 60px;
 }
-h2 {
-    color: #929DA8;
-    font-size: 28px;
+
+h4{
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  font-stretch: expanded;
+  font-size: 30px;
+  color: #2d3c49;
 }
-h3 {
-    text-transform: uppercase;
-    text-align: center;
+
+h3{
+  text-transform: uppercase;
+  text-align: right;
+  color: #2d3c49;
 }
-h4 {
-    text-align: right;
-}
-hr {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    height: 3px;
-    background-color: #929DA8;
-}
-p {
-    text-align: center;
+
+hr{
+  background-color: lightgray;
+  height: 5px;
+  margin-left: auto;
+  margin-right: auto;
 }
