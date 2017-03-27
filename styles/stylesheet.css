@@ -1,14 +1,14 @@
-body{
+body {
   margin: 0 auto;
   width: 100%;
   font-family: "Ubuntu", sans-serif;
 }
 
-.img-responsive{
+.img-responsive {
   width: 100%;
 }
 
-.work{
+.work {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -16,14 +16,14 @@ body{
   color: #7d97ad;
 }
 
-.name{
+.name {
   width: 40%;
   margin: 25px;
   padding: 10px;
   font-family: "Abril Fatface", cursive;
 }
 
-h1{
+h1 {
   text-transform: uppercase;
   text-align: right;
   font-weight: 100;
@@ -31,7 +31,7 @@ h1{
   font-size: 60px;
 }
 
-h4{
+h4 {
   text-transform: uppercase;
   text-align: center;
   font-weight: bold;
@@ -40,15 +40,20 @@ h4{
   color: #2d3c49;
 }
 
-h3{
+h3 {
   text-transform: uppercase;
   text-align: right;
   color: #2d3c49;
 }
 
-hr{
-  background-color: lightgray;
+hr {
+  width: 97%;
+  background-color: gray;
   height: 5px;
   margin-left: auto;
   margin-right: auto;
+}
+
+h2 {
+  color: #2d3c49;
 }
