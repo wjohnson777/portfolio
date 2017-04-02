@@ -16,13 +16,6 @@ body {
   color: #7d97ad;
 }
 
-.name {
-  width: 40%;
-  margin: 25px;
-  padding: 10px;
-  font-family: "Abril Fatface", cursive;
-}
-
 h1 {
   text-transform: uppercase;
   text-align: right;
@@ -47,7 +40,7 @@ h3 {
 }
 
 hr {
-  width: 97%;
+  width: 100%;
   background-color: gray;
   height: 5px;
   margin-left: auto;
